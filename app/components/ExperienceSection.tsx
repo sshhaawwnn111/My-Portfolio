@@ -5,6 +5,19 @@ import { motion } from 'framer-motion';
 const experiences = [
     {
         id: 1,
+        company: 'Baltimore Ravens',
+        position: 'Software Development Intern',
+        duration: 'Jan 2026 - May 2026',
+        location: 'Baltimore, MD',
+        description: '',
+        bulletPoints: [
+            'Developed a full-stack scouting application using Ruby on Rails to centralize 40K+ prospects stats and evaluations for the front office.',
+            'Engineered backend data pipelines to integrate the platform with the Ravens’ existing SQL Server database.',
+        ],
+        technologies: ['Ruby on Rails', 'SQL Server', 'Web Development', 'Git'],
+    },
+    {
+        id: 2,
         company: 'Johns Hopkins Social Cognitive AI (SCAI) Lab',
         position: 'Research Assistant',
         duration: 'Sep 2025 - Present',
@@ -13,18 +26,6 @@ const experiences = [
         bulletPoints: [
             'Conducting research on Embodied AI with a focus on perspective-taking and social reasoning.',
             'Developing simulation-based world models and state representations for evaluating spatial cognition in AI systems.',
-        ],
-        technologies: ['Python', 'PyTorch', 'Medical Imaging', 'Git'],
-    },
-    {
-        id: 2,
-        company: 'Johns Hopkins Computational Cognition, Vision, and Learning (CCVL) Lab',
-        position: 'Software Developer',
-        duration: 'Sep 2025 - Present',
-        location: 'Baltimore, MD',
-        description: 'Developing platform for the BodyMaps project.',
-        bulletPoints: [
-            
         ],
         technologies: ['Python', 'PyTorch', 'Medical Imaging', 'Git'],
     },
