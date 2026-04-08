@@ -8,7 +8,7 @@ const projects = [
 	{
 		id: 1,
 		title: 'Baltimore Ravens/RotoWire AI Agent ',
-		description: 'Developed a Retrieval-Augmented Generation (RAG) system for NFL analytics by integrating RotoWire data and deploying the system alongside a self-hosted LLM with vLLM on AWS, earning a full-paper invitation to the 2026 MIT Sloan Sports Analytics Conference.',
+		description: 'Developed a Retrieval-Augmented Generation (RAG) system for NFL analytics by integrating RotoWire data and deploying the system alongside a self-hosted LLM with vLLM on AWS.',
 		image: '/My-Portfolio/laptop.jpg',
 		github: 'https://github.com/sshhaawwnn111/Retrieval-Augmented-Generation-system-for-NFL',
 	},
