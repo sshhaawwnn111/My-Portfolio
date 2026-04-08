@@ -7,6 +7,13 @@ import Link from 'next/link';
 const projects = [
 	{
 		id: 1,
+		title: 'Baltimore Ravens/RotoWire AI Agent ',
+		description: 'Developed a Retrieval-Augmented Generation (RAG) system for NFL analytics by integrating RotoWire data and deploying the system alongside a self-hosted LLM with vLLM on AWS, earning a full-paper invitation to the 2026 MIT Sloan Sports Analytics Conference.',
+		image: '/My-Portfolio/laptop.jpg',
+		github: 'https://github.com/sshhaawwnn111/Retrieval-Augmented-Generation-system-for-NFL',
+	},
+	{
+		id: 2,
 		title: 'HopCrave',
 		description: 'Full-stack recipe sharing social media platform for food enthusiasts.',
 		image: '/My-Portfolio/code.jpg',
