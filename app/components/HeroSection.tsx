@@ -26,9 +26,9 @@ export default function HeroSection() {
 				<Image
 					src="/My-Portfolio/profile.jpeg"
 					alt="Profile picture"
-					width={160}
-					height={160}
-					className="w-32 h-32 md:w-40 md:h-40 rounded-full border-4 border-white shadow-lg object-cover"
+					width={256}
+					height={256}
+					className="w-48 h-48 md:w-64 md:h-64 rounded-full border-4 border-white shadow-lg object-cover"
 					unoptimized
 				/>
 				</motion.div>
