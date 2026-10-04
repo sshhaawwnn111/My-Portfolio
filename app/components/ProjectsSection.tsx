@@ -22,7 +22,7 @@ const projects = [
 	{
 		id: 2,
 		title: 'PPG2ECG with SEGAN',
-		description: 'Deep learning project to reconstruct ECG signals from PPG data using GANs.',
+		description: 'Deep learning project to reconstruct ECG signals from PPG data using dual discriminator GANs.',
 		image: '/My-Portfolio/laptop.jpg',
 		github: 'https://github.com/sshhaawwnn111/Reconstructing-ECG-from-Paired-PPG-using-Dual-Discriminator-SEGAN',
 	},
