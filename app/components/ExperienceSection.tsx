@@ -52,6 +52,18 @@ const experiences = [
         duration: 'Jul 2023 - Jan 2024',
         location: 'Taipei, Taiwan',
         description: 'Evaluated emerging AI models and led R&D on text-to-video generation, while streamlining data workflows with automated SQL queries.',
+        media: {
+            firstFrame: {
+                src: '/castle.jpg',
+                alt: 'Castle image used as the first-frame conditioning input',
+                label: 'First-frame input',
+            },
+            result: {
+                src: '/AnimateDiff.gif',
+                alt: 'AnimateDiff latent space engineering result',
+                label: 'AnimateDiff result',
+            },
+        },
         bulletPoints: [
             'Evaluated and presented insights on 15+ emerging open sourced AI models (e.g., Neuralangelo, AudioCraft), influencing strategic decisions for future product development.',
             'Led independent R&D on text-to-video generation with AnimateDiff, engineering a custom latent space modification to enable first-frame image conditioning.',
@@ -108,6 +120,24 @@ export default function ExperienceSection() {
                                     </li>
                                 ))}
                             </ul>
+                        )}
+
+                        {experience.media && (
+                            <div className="mb-5 grid max-w-5xl gap-4 md:grid-cols-2">
+                                {[experience.media.firstFrame, experience.media.result].map((media) => (
+                                    <figure key={media.src} className="overflow-hidden rounded-lg border border-white/10 bg-black/20">
+                                        <img
+                                            src={media.src}
+                                            alt={media.alt}
+                                            loading="lazy"
+                                            className="block aspect-video h-auto w-full object-cover"
+                                        />
+                                        <figcaption className="px-4 py-2 text-sm text-gray-400">
+                                            {media.label}
+                                        </figcaption>
+                                    </figure>
+                                ))}
+                            </div>
                         )}
 
                         <div className="flex flex-wrap gap-2">
