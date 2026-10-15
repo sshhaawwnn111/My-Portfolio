@@ -67,6 +67,14 @@ export default function ContactSection() {
 						</svg>
 						<span>View Resume</span>
 					</a>
+					<a
+						href="/My-Portfolio/resume_tw.pdf"
+						target="_blank"
+						rel="noopener noreferrer"
+						className="group flex items-center gap-2 px-6 py-3 bg-white/5 rounded-full hover:bg-white/10 transition-colors w-full sm:w-auto"
+					>
+						<span>中文履歷</span>
+					</a>
 				</motion.div>
 
 				<motion.div
