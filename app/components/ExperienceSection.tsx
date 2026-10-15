@@ -54,12 +54,12 @@ const experiences = [
         description: 'Evaluated emerging AI models and led R&D on text-to-video generation, while streamlining data workflows with automated SQL queries.',
         media: {
             firstFrame: {
-                src: '/castle.jpg',
+                src: '/My-Portfolio/castle.jpg',
                 alt: 'Castle image used as the first-frame conditioning input',
                 label: 'First-frame input',
             },
             result: {
-                src: '/AnimateDiff.gif',
+                src: '/My-Portfolio/AnimateDiff.gif',
                 alt: 'AnimateDiff latent space engineering result',
                 label: 'AnimateDiff result',
             },

@@ -21,7 +21,7 @@ const projects = [
 		github: 'https://github.com/sshhaawwnn111/Recipe-Sharing-App',
 	},
 	{
-		id: 2,
+		id: 3,
 		title: 'PPG2ECG with SEGAN',
 		description: 'Deep learning project to reconstruct ECG signals from PPG data using dual discriminator GANs.',
 		image: '/My-Portfolio/laptop.jpg',
@@ -29,21 +29,21 @@ const projects = [
 		report: 'DLP_final_project_group11.pdf',
 	},
 	{
-		id: 3,
+		id: 4,
 		title: 'Asymmetry-Aware Stroke Detection (Private Research Repo)',
 		description: 'Improve brain CT image stroke region segmentation by leveraging asymmetry analysis and preprocessing techniques.',
 		image: '/My-Portfolio/code.jpg',
 		link: 'https://youtu.be/23isSiJxpaE',
 	},
 	{
-		id: 4,
+		id: 5,
 		title: 'Steam Reviews Sentiment Classification',
 		description: 'Built a sentiment analysis pipeline for Steam reviews using BERT and other ML models, achieving over 90% classification accuracy on custom-scraped data.',
 		image: '/My-Portfolio/laptop.jpg',
 		github: 'https://github.com/sshhaawwnn111/Sentiment-Classification',
 	},
 	{
-		id: 5,
+		id: 6,
 		title: 'Ablation study of the RL paper: Stochastic Variance-Reduced Policy Gradient',
 		description: 'Conducted a theoretical ablation study, extending and clarifying results from the original RL paper with new proofs and insights.',
 		image: '/My-Portfolio/code.jpg',
@@ -51,7 +51,7 @@ const projects = [
 		report: '/svrpg-report.pdf',
 	},
 	{
-		id: 6,
+		id: 7,
 		title: 'Diabetic Retinopathy Detection',
 		description: 'Classification of diabetic retinopathy in 5 levels in retinal images using ResNet18 and ResNet50.',
 		image: '/My-Portfolio/laptop.jpg',
@@ -59,7 +59,7 @@ const projects = [
 		report: '/diabetic-retinopathy-report.pdf',
 	},
 	{
-		id: 7,
+		id: 8,
 		title: 'Conditional Variational Auto Encoder for video prediction',
 		description: 'Developed a conditional variational autoencoder to predict future frames in video sequences.',
 		image: '/My-Portfolio/code.jpg',
@@ -67,7 +67,7 @@ const projects = [
 		report: '/conditional-variational-autoencoder-report.pdf',
 	},
 	{
-		id: 8,
+		id: 9,
 		title: 'Deep Q-Network and Deep Deterministic Policy Gradient',
 		description: 'Built deep reinforcement learning agents using DQN and DDPG algorithms to tackle environments including LunarLander spacecraft control and Atari Breakout gameplay',
 		image: '/My-Portfolio/laptop.jpg',
@@ -75,7 +75,7 @@ const projects = [
 		report: '/deep-q-network-report.pdf',
 	},
 	{
-		id: 9,
+		id: 10,
 		title: 'Conditional Denoising Diffusion Probabilistic Model for multi-label image synthesis',
 		description: 'Built a conditional denoising diffusion probabilistic model for high-quality image synthesis. Trained on CLEVR dataset.',
 		image: '/My-Portfolio/code.jpg',
@@ -83,7 +83,7 @@ const projects = [
 		report: '/cDDPM.pdf',
 	},
 	{
-		id: 10,
+		id: 11,
 		title: 'Temporal Difference Learning for 2048 game',
 		description: 'Implemented a temporal difference learning algorithm to play the 2048 game, achieving a win rate of 99%.',
 		image: '/My-Portfolio/laptop.jpg',
@@ -91,7 +91,7 @@ const projects = [
 		report: '/td-learning-2048.pdf',
 	},
 	{
-		id: 11,
+		id: 12,
 		title: 'Computer Graphics Animation',
 		description: 'Render a computer graphics animation using OpenGL.',
 		image: '/My-Portfolio/code.jpg',
@@ -100,7 +100,7 @@ const projects = [
 		link: 'https://youtu.be/HcqKwsRahjI',
 	},
 	{
-		id: 12,
+		id: 13,
 		title: 'Reinforcement Learning Snake game',
 		description: 'Train a reinforcement learning agent with adversarial learning to play the classic Snake game.(The demo is in Mandarin)',
 		image: '/My-Portfolio/laptop.jpg',
