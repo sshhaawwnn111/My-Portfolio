@@ -11,6 +11,7 @@ const projects = [
 		description: 'Developed a Retrieval-Augmented Generation (RAG) system for NFL analytics by integrating RotoWire data and deploying the system alongside a self-hosted LLM with vLLM on AWS.',
 		image: '/My-Portfolio/laptop.jpg',
 		github: 'https://github.com/sshhaawwnn111/Retrieval-Augmented-Generation-system-for-NFL',
+		paper: '/NFL_paper.pdf',
 	},
 	{
 		id: 2,
@@ -25,6 +26,7 @@ const projects = [
 		description: 'Deep learning project to reconstruct ECG signals from PPG data using dual discriminator GANs.',
 		image: '/My-Portfolio/laptop.jpg',
 		github: 'https://github.com/sshhaawwnn111/Reconstructing-ECG-from-Paired-PPG-using-Dual-Discriminator-SEGAN',
+		report: 'DLP_final_project_group11.pdf',
 	},
 	{
 		id: 3,
@@ -166,6 +168,16 @@ export default function ProjectsSection() {
 										className="text-xs md:text-sm px-3 md:px-4 py-2 bg-white/10 hover:bg-white/20 rounded-full transition-colors"
 									>
 										Demo Link
+									</Link>
+								)}
+								{project.paper && project.paper !== '#' && (
+									<Link
+										href={project.paper}
+										target="_blank"
+										rel="noopener noreferrer"
+										className="text-xs md:text-sm px-3 md:px-4 py-2 bg-white/10 hover:bg-white/20 rounded-full transition-colors"
+									>
+										Paper Link
 									</Link>
 								)}
 							</div>
